@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6C672928932A5100E9E1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C672828932A5100E9E1DC /* AppDelegate.swift */; };
+		0A6C672B28932A5100E9E1DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C672A28932A5100E9E1DC /* SceneDelegate.swift */; };
+		0A6C672D28932A5100E9E1DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C672C28932A5100E9E1DC /* ViewController.swift */; };
+		0A6C673028932A5100E9E1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6C672E28932A5100E9E1DC /* Main.storyboard */; };
+		0A6C673228932A5300E9E1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6C673128932A5300E9E1DC /* Assets.xcassets */; };
+		0A6C673528932A5300E9E1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6C673328932A5300E9E1DC /* LaunchScreen.storyboard */; };
+		0A6C674028932A5400E9E1DC /* poc_lottieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C673F28932A5400E9E1DC /* poc_lottieTests.swift */; };
+		0A6C674A28932A5400E9E1DC /* poc_lottieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C674928932A5400E9E1DC /* poc_lottieUITests.swift */; };
+		0A6C674C28932A5400E9E1DC /* poc_lottieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C674B28932A5400E9E1DC /* poc_lottieUITestsLaunchTests.swift */; };
+		23FDE3CEEBAB7A6D447425B2 /* Pods_poc_lottie_poc_lottieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819E74A8AC2F469F0D6BD3F5 /* Pods_poc_lottie_poc_lottieUITests.framework */; };
+		26BE88DED88ACE81C4D38F37 /* Pods_poc_lottieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E51CD67F8A3A03FE15A5C06 /* Pods_poc_lottieTests.framework */; };
+		61E18793975B46BEA016937B /* Pods_poc_lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8289BF4E42E262AF9FBA0C /* Pods_poc_lottie.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A6C673C28932A5400E9E1DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A6C671D28932A5100E9E1DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A6C672428932A5100E9E1DC;
+			remoteInfo = "poc-lottie";
+		};
+		0A6C674628932A5400E9E1DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A6C671D28932A5100E9E1DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A6C672428932A5100E9E1DC;
+			remoteInfo = "poc-lottie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A6C672528932A5100E9E1DC /* poc-lottie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poc-lottie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6C672828932A5100E9E1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A6C672A28932A5100E9E1DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0A6C672C28932A5100E9E1DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A6C672F28932A5100E9E1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A6C673128932A5300E9E1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A6C673428932A5300E9E1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A6C673628932A5300E9E1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6C673B28932A5400E9E1DC /* poc-lottieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-lottieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6C673F28932A5400E9E1DC /* poc_lottieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_lottieTests.swift; sourceTree = "<group>"; };
+		0A6C674528932A5400E9E1DC /* poc-lottieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-lottieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6C674928932A5400E9E1DC /* poc_lottieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_lottieUITests.swift; sourceTree = "<group>"; };
+		0A6C674B28932A5400E9E1DC /* poc_lottieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_lottieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18A8D1E52E2499B25845B179 /* Pods-poc-lottie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-lottie.debug.xcconfig"; path = "Target Support Files/Pods-poc-lottie/Pods-poc-lottie.debug.xcconfig"; sourceTree = "<group>"; };
+		1A6FD71845760DC5144E4E19 /* Pods-poc-lottieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-lottieTests.release.xcconfig"; path = "Target Support Files/Pods-poc-lottieTests/Pods-poc-lottieTests.release.xcconfig"; sourceTree = "<group>"; };
+		26D5A4168F7E67379ABF9265 /* Pods-poc-lottie-poc-lottieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-lottie-poc-lottieUITests.release.xcconfig"; path = "Target Support Files/Pods-poc-lottie-poc-lottieUITests/Pods-poc-lottie-poc-lottieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E51CD67F8A3A03FE15A5C06 /* Pods_poc_lottieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poc_lottieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79210D11A6CDC1B87342677E /* Pods-poc-lottie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-lottie.release.xcconfig"; path = "Target Support Files/Pods-poc-lottie/Pods-poc-lottie.release.xcconfig"; sourceTree = "<group>"; };
+		819E74A8AC2F469F0D6BD3F5 /* Pods_poc_lottie_poc_lottieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poc_lottie_poc_lottieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8289BF4E42E262AF9FBA0C /* Pods_poc_lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poc_lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F2CE2F792EED99C688A252 /* Pods-poc-lottie-poc-lottieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-lottie-poc-lottieUITests.debug.xcconfig"; path = "Target Support Files/Pods-poc-lottie-poc-lottieUITests/Pods-poc-lottie-poc-lottieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6A4DFCB295F67DC39D67790 /* Pods-poc-lottieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-lottieTests.debug.xcconfig"; path = "Target Support Files/Pods-poc-lottieTests/Pods-poc-lottieTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A6C672228932A5100E9E1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E18793975B46BEA016937B /* Pods_poc_lottie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6C673828932A5400E9E1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BE88DED88ACE81C4D38F37 /* Pods_poc_lottieTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6C674228932A5400E9E1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FDE3CEEBAB7A6D447425B2 /* Pods_poc_lottie_poc_lottieUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6C671C28932A5100E9E1DC = {
+			isa = PBXGroup;
+			children = (
+				0A6C672728932A5100E9E1DC /* poc-lottie */,
+				0A6C673E28932A5400E9E1DC /* poc-lottieTests */,
+				0A6C674828932A5400E9E1DC /* poc-lottieUITests */,
+				0A6C672628932A5100E9E1DC /* Products */,
+				0CB20144323D1A313BBA176A /* Pods */,
+				1DC54C18A20D1C1E98294E31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A6C672628932A5100E9E1DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A6C672528932A5100E9E1DC /* poc-lottie.app */,
+				0A6C673B28932A5400E9E1DC /* poc-lottieTests.xctest */,
+				0A6C674528932A5400E9E1DC /* poc-lottieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A6C672728932A5100E9E1DC /* poc-lottie */ = {
+			isa = PBXGroup;
+			children = (
+				0A6C672828932A5100E9E1DC /* AppDelegate.swift */,
+				0A6C672A28932A5100E9E1DC /* SceneDelegate.swift */,
+				0A6C672C28932A5100E9E1DC /* ViewController.swift */,
+				0A6C672E28932A5100E9E1DC /* Main.storyboard */,
+				0A6C673128932A5300E9E1DC /* Assets.xcassets */,
+				0A6C673328932A5300E9E1DC /* LaunchScreen.storyboard */,
+				0A6C673628932A5300E9E1DC /* Info.plist */,
+			);
+			path = "poc-lottie";
+			sourceTree = "<group>";
+		};
+		0A6C673E28932A5400E9E1DC /* poc-lottieTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A6C673F28932A5400E9E1DC /* poc_lottieTests.swift */,
+			);
+			path = "poc-lottieTests";
+			sourceTree = "<group>";
+		};
+		0A6C674828932A5400E9E1DC /* poc-lottieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A6C674928932A5400E9E1DC /* poc_lottieUITests.swift */,
+				0A6C674B28932A5400E9E1DC /* poc_lottieUITestsLaunchTests.swift */,
+			);
+			path = "poc-lottieUITests";
+			sourceTree = "<group>";
+		};
+		0CB20144323D1A313BBA176A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18A8D1E52E2499B25845B179 /* Pods-poc-lottie.debug.xcconfig */,
+				79210D11A6CDC1B87342677E /* Pods-poc-lottie.release.xcconfig */,
+				D7F2CE2F792EED99C688A252 /* Pods-poc-lottie-poc-lottieUITests.debug.xcconfig */,
+				26D5A4168F7E67379ABF9265 /* Pods-poc-lottie-poc-lottieUITests.release.xcconfig */,
+				F6A4DFCB295F67DC39D67790 /* Pods-poc-lottieTests.debug.xcconfig */,
+				1A6FD71845760DC5144E4E19 /* Pods-poc-lottieTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1DC54C18A20D1C1E98294E31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF8289BF4E42E262AF9FBA0C /* Pods_poc_lottie.framework */,
+				819E74A8AC2F469F0D6BD3F5 /* Pods_poc_lottie_poc_lottieUITests.framework */,
+				3E51CD67F8A3A03FE15A5C06 /* Pods_poc_lottieTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A6C672428932A5100E9E1DC /* poc-lottie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6C674F28932A5400E9E1DC /* Build configuration list for PBXNativeTarget "poc-lottie" */;
+			buildPhases = (
+				1F25CC8273EB51DE1CB2AED6 /* [CP] Check Pods Manifest.lock */,
+				0A6C672128932A5100E9E1DC /* Sources */,
+				0A6C672228932A5100E9E1DC /* Frameworks */,
+				0A6C672328932A5100E9E1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "poc-lottie";
+			productName = "poc-lottie";
+			productReference = 0A6C672528932A5100E9E1DC /* poc-lottie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A6C673A28932A5400E9E1DC /* poc-lottieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6C675228932A5400E9E1DC /* Build configuration list for PBXNativeTarget "poc-lottieTests" */;
+			buildPhases = (
+				66E0A6B8BC3D91599DEA8922 /* [CP] Check Pods Manifest.lock */,
+				0A6C673728932A5400E9E1DC /* Sources */,
+				0A6C673828932A5400E9E1DC /* Frameworks */,
+				0A6C673928932A5400E9E1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A6C673D28932A5400E9E1DC /* PBXTargetDependency */,
+			);
+			name = "poc-lottieTests";
+			productName = "poc-lottieTests";
+			productReference = 0A6C673B28932A5400E9E1DC /* poc-lottieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A6C674428932A5400E9E1DC /* poc-lottieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6C675528932A5400E9E1DC /* Build configuration list for PBXNativeTarget "poc-lottieUITests" */;
+			buildPhases = (
+				5C314DED4C75BA0E155CD7BF /* [CP] Check Pods Manifest.lock */,
+				0A6C674128932A5400E9E1DC /* Sources */,
+				0A6C674228932A5400E9E1DC /* Frameworks */,
+				0A6C674328932A5400E9E1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A6C674728932A5400E9E1DC /* PBXTargetDependency */,
+			);
+			name = "poc-lottieUITests";
+			productName = "poc-lottieUITests";
+			productReference = 0A6C674528932A5400E9E1DC /* poc-lottieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A6C671D28932A5100E9E1DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0A6C672428932A5100E9E1DC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0A6C673A28932A5400E9E1DC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0A6C672428932A5100E9E1DC;
+					};
+					0A6C674428932A5400E9E1DC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0A6C672428932A5100E9E1DC;
+					};
+				};
+			};
+			buildConfigurationList = 0A6C672028932A5100E9E1DC /* Build configuration list for PBXProject "poc-lottie" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A6C671C28932A5100E9E1DC;
+			productRefGroup = 0A6C672628932A5100E9E1DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A6C672428932A5100E9E1DC /* poc-lottie */,
+				0A6C673A28932A5400E9E1DC /* poc-lottieTests */,
+				0A6C674428932A5400E9E1DC /* poc-lottieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A6C672328932A5100E9E1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6C673528932A5300E9E1DC /* LaunchScreen.storyboard in Resources */,
+				0A6C673228932A5300E9E1DC /* Assets.xcassets in Resources */,
+				0A6C673028932A5100E9E1DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6C673928932A5400E9E1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6C674328932A5400E9E1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F25CC8273EB51DE1CB2AED6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poc-lottie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C314DED4C75BA0E155CD7BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poc-lottie-poc-lottieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66E0A6B8BC3D91599DEA8922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poc-lottieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A6C672128932A5100E9E1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6C672D28932A5100E9E1DC /* ViewController.swift in Sources */,
+				0A6C672928932A5100E9E1DC /* AppDelegate.swift in Sources */,
+				0A6C672B28932A5100E9E1DC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6C673728932A5400E9E1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6C674028932A5400E9E1DC /* poc_lottieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6C674128932A5400E9E1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6C674C28932A5400E9E1DC /* poc_lottieUITestsLaunchTests.swift in Sources */,
+				0A6C674A28932A5400E9E1DC /* poc_lottieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A6C673D28932A5400E9E1DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A6C672428932A5100E9E1DC /* poc-lottie */;
+			targetProxy = 0A6C673C28932A5400E9E1DC /* PBXContainerItemProxy */;
+		};
+		0A6C674728932A5400E9E1DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A6C672428932A5100E9E1DC /* poc-lottie */;
+			targetProxy = 0A6C674628932A5400E9E1DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A6C672E28932A5100E9E1DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A6C672F28932A5100E9E1DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A6C673328932A5300E9E1DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A6C673428932A5300E9E1DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A6C674D28932A5400E9E1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A6C674E28932A5400E9E1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A6C675028932A5400E9E1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A8D1E52E2499B25845B179 /* Pods-poc-lottie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "poc-lottie/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryam.poc-lottie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A6C675128932A5400E9E1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79210D11A6CDC1B87342677E /* Pods-poc-lottie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "poc-lottie/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryam.poc-lottie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A6C675328932A5400E9E1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A4DFCB295F67DC39D67790 /* Pods-poc-lottieTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryam.poc-lottieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poc-lottie.app/poc-lottie";
+			};
+			name = Debug;
+		};
+		0A6C675428932A5400E9E1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6FD71845760DC5144E4E19 /* Pods-poc-lottieTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryam.poc-lottieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poc-lottie.app/poc-lottie";
+			};
+			name = Release;
+		};
+		0A6C675628932A5400E9E1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F2CE2F792EED99C688A252 /* Pods-poc-lottie-poc-lottieUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryam.poc-lottieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poc-lottie";
+			};
+			name = Debug;
+		};
+		0A6C675728932A5400E9E1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D5A4168F7E67379ABF9265 /* Pods-poc-lottie-poc-lottieUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryam.poc-lottieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poc-lottie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A6C672028932A5100E9E1DC /* Build configuration list for PBXProject "poc-lottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6C674D28932A5400E9E1DC /* Debug */,
+				0A6C674E28932A5400E9E1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6C674F28932A5400E9E1DC /* Build configuration list for PBXNativeTarget "poc-lottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6C675028932A5400E9E1DC /* Debug */,
+				0A6C675128932A5400E9E1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6C675228932A5400E9E1DC /* Build configuration list for PBXNativeTarget "poc-lottieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6C675328932A5400E9E1DC /* Debug */,
+				0A6C675428932A5400E9E1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6C675528932A5400E9E1DC /* Build configuration list for PBXNativeTarget "poc-lottieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6C675628932A5400E9E1DC /* Debug */,
+				0A6C675728932A5400E9E1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A6C671D28932A5100E9E1DC /* Project object */;
+}
